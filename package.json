@@ -20,8 +20,8 @@
     "@tanstack/react-router": "1.170.44",
     "antd": "6.6.6",
     "dayjs": "1.11.23",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
     "@tailwindcss/language-server": "0.16.0",
