@@ -26,13 +26,14 @@ minimumReleaseAgeExclude:
   - "@oxc-transform-react/binding-win32-x64-msvc@0.153.0 || 0.154.0"
   - "@vitejs/plugin-react@6.1.2"
   - oxc-transform-react@0.153.0 || 0.154.0
-  - playwright-core@1.64.0
-  - playwright@1.64.0
+  - playwright-core@1.64.0 || 1.64.1
+  - playwright@1.64.0 || 1.64.1
   - "@tanstack/history@1.162.5"
   - "@tanstack/react-router@1.170.42 || 1.170.44"
   - "@tanstack/router-core@1.171.35 || 1.171.37"
-  - "@tanstack/router-generator@1.167.41 || 1.167.43"
-  - "@tanstack/router-plugin@1.168.43 || 1.168.45"
+  - "@tanstack/router-generator@1.167.41 || 1.167.43 || 1.167.44"
+  - "@tanstack/router-plugin@1.168.43 || 1.168.45 || 1.168.46"
+  - "@tanstack/router-utils@1.162.4"
 overrides:
   vite@*: "catalog:"
   vitest@*: "catalog:"
