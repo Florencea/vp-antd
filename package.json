@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@tanstack/react-router": "1.170.46",
-    "antd": "6.6.7",
+    "antd": "6.6.8",
     "dayjs": "1.11.23",
     "react": "19.3.1",
     "react-dom": "19.3.1"
@@ -32,7 +32,7 @@
     "@types/react-dom": "19.3.0",
     "@vitejs/plugin-react": "6.1.2",
     "@vitest/browser-playwright": "catalog:",
-    "knip": "6.42.1",
+    "knip": "6.43.0",
     "oxc-transform-react": "0.155.0",
     "playwright": "1.64.1",
     "tailwindcss": "4.3.3",
