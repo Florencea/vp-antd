@@ -61,3 +61,8 @@ catalog:
   vitest: 5.0.5
   vite-plus: 1.4.0
   "@vitest/browser-playwright": 5.0.5
+permissions:
+  '@tanstack/react-router':
+    skills: true
+  '@tanstack/router-plugin':
+    skills: true
