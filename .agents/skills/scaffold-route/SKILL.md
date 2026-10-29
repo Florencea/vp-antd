@@ -1,6 +1,8 @@
 ---
 name: scaffold-route
-description: Step-by-step workflow to scaffold a new TanStack Router route with Ant Design v6 components and Vitest browser test.
+description: >-
+  Use this skill when scaffolding or generating a new TanStack Router route with
+  Ant Design v6 components and a Vitest browser test in this project.
 compatibility: React 19, TanStack Router, Ant Design v6, Vitest Browser
 ---
 
@@ -34,9 +36,9 @@ function RouteComponent() {
 }
 ```
 
-## 2. Generate Route Tree
+## 2. Synchronize Route Tree
 
-Run the Vite build or typecheck to trigger `@tanstack/router-plugin` code generation:
+Run the inner verification loop to trigger `@tanstack/router-plugin` code generation:
 
 ```bash
 vpr agent:verify:inner
