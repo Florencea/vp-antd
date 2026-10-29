@@ -35,7 +35,7 @@ Guidelines for AI agents and human contributors working on this repository.
 
 - **Single Source of Truth**: TailwindCSS v4 `@theme` in `src/global.css` is the sole source of truth for design tokens. `src/theme.ts` bridges CSS variables to Ant Design (`useAntdTheme()`). Never hardcode colors or use inline `style={{ ... }}`.
 - **Protected Files**: Never manually edit `src/routeTree.gen.ts` (auto-generated).
-- **Domain Rules**: Path-specific rules live under `.agents/rules/` (`ui-styling`, `routing`, `testing`) and activate via file globbing.
+- **Domain Rules**: Path-specific rules live under `.agents/rules/` (`ui-styling`, `routing`, `testing`, `ci`) and activate via file globbing.
 
 ---
 
