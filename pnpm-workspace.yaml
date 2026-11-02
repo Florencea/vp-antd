@@ -19,7 +19,7 @@ minimumReleaseAgeExclude:
   - "@oxc-transform-react/binding-win32-arm64-msvc@0.153.0 || 0.154.0 || 0.156.0"
   - "@oxc-transform-react/binding-win32-ia32-msvc@0.153.0 || 0.154.0 || 0.156.0"
   - "@oxc-transform-react/binding-win32-x64-msvc@0.153.0 || 0.154.0 || 0.156.0"
-  - "@vitejs/plugin-react@6.1.2"
+  - "@vitejs/plugin-react@6.1.2 || 6.2.1"
   - oxc-transform-react@0.153.0 || 0.154.0 || 0.156.0
   - playwright-core@1.64.0 || 1.64.1
   - playwright@1.64.0 || 1.64.1
@@ -47,6 +47,22 @@ minimumReleaseAgeExclude:
   - vscode-languageserver-protocol@3.18.5
   - vscode-languageserver-types@3.18.5
   - "@types/node@26.6.6"
+  - "@tailwindcss/node@4.3.4"
+  - "@tailwindcss/oxide-android-arm64@4.3.4"
+  - "@tailwindcss/oxide-darwin-arm64@4.3.4"
+  - "@tailwindcss/oxide-darwin-x64@4.3.4"
+  - "@tailwindcss/oxide-freebsd-x64@4.3.4"
+  - "@tailwindcss/oxide-linux-arm-gnueabihf@4.3.4"
+  - "@tailwindcss/oxide-linux-arm64-gnu@4.3.4"
+  - "@tailwindcss/oxide-linux-arm64-musl@4.3.4"
+  - "@tailwindcss/oxide-linux-x64-gnu@4.3.4"
+  - "@tailwindcss/oxide-linux-x64-musl@4.3.4"
+  - "@tailwindcss/oxide-wasm32-wasi@4.3.4"
+  - "@tailwindcss/oxide-win32-arm64-msvc@4.3.4"
+  - "@tailwindcss/oxide-win32-x64-msvc@4.3.4"
+  - "@tailwindcss/oxide@4.3.4"
+  - "@tailwindcss/vite@4.3.4"
+  - tailwindcss@4.3.4
 overrides:
   vite@*: "catalog:"
   vitest@*: "catalog:"
