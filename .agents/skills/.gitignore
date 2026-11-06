@@ -1,6 +1,6 @@
 # pnpm
 /migrate-from-react-router
-/pnpm-@tanstack+router-plugin-router-plugin
 /react-router
+/router-plugin
 /router-query
 # pnpm end
