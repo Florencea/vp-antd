@@ -19,6 +19,6 @@ permissions:
 jobs:
   ci:
     name: Gatekeeper
-    uses: Florencea/vp-actions/.github/workflows/vp-web-ci.yml@v2
+    uses: Florencea/vp-actions/.github/workflows/vp-web-ci.yml@v2.0.0
     with:
       enable-platform-compat: true
