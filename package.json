@@ -48,6 +48,7 @@
   "engines": {
     "node": "26.13.1"
   },
+  "packageManager": "pnpm@12.21.0",
   "knip": {
     "ignoreBinaries": [
       "actionlint"
@@ -56,6 +57,5 @@
       "@tailwindcss/language-server"
     ],
     "playwright": true
-  },
-  "packageManager": "pnpm@12.21.0"
+  }
 }
